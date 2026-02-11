@@ -1,71 +1,87 @@
 # Final Project Proposal
 
 ## Project Overview
-**Project Title:** [Your project title]
+
+**Group Members:**  
+- Mengxing Wang
+- Jiacheng He
+- Xiao Luo
+- Renwei Li
+
+**Project Title:** **City of Boston: Building & Housing Violations Analysis [BU SPARKS]**
 
 **Brief Description:**  
-[Provide a concise overview of your project. What problem are you addressing and why is it interesting or important?]
+The City of Boston is interested in housing violations, possible causes, and structural remedies. Using data on housing violations, the City of Boston is interested in a comprehensive report about systemic issues in the state of housing around the city.
 
 ---
 
 ## 1. Project Description & Timeline
 
 ### Project Description
-[Clearly describe your project topic. Explain what you plan to build, analyze, or study.  
-Your description should make it obvious what the final outcome of the project will be.]
-
-### Project Motivation
-[Explain why you chose this project. What makes it meaningful, useful, or interesting?]
+This project works with available housing and building violation data from the City of Boston in public. These records are created when residential buildings do not meet required housing or safety standards, such as problems with heating, building conditions, sanitation, and fire safety, etc. The project aims to look at housing violations from a data perspective in order to understand what kinds of problems appear most often and how they vary across different neighborhoods through time. The analysis mainly focuses on describing violation types, where violations are more common, and how violation activity changes across different time periods. The goal of this project is to provide a organized summary of housing violation patterns based on data analysis and visualization.
 
 ### Project Timeline
 
 | Task / Milestone | Estimated Duration |
 |------------------|--------------------|
-| Literature review / background research | 1 weeks |
-| Data collection | 1 weeks |
+| Background research and understanding housing codes | 1 week |
+| Data collection and initial exploration | 1 week |
 | Data cleaning and preprocessing | 2 weeks |
-| Model development / analysis | 2 weeks |
-| Evaluation and refinement | 1 weeks |
-| Final Check | 1 weeks |
-
-**Backup Plan:**  
-[Briefly describe a simpler or alternative version of your project in case the original goal proves too ambitious.]
+| Exploratory analysis and modeling | 2 weeks |
+| Evaluation, visualization, and interpretation | 1 week |
+| Final report writing, presentation, and review | 1 week |
 
 ---
 
 ## 2. Project Goals
 
-### Primary Goal(s)
-[Clearly state the main goal(s) of your project. Use complete, concrete sentences.]
+### Primary Goals
 
-Example format:
-- [Goal 1: A specific, measurable objective]
-- [Goal 2: A specific, measurable objective]
+- Identify the most frequent types of housing violations in Boston and how they vary by neighborhood.
+- Analyze spatial patterns of housing violations to determine whether certain areas experience disproportionately high violation rates.
+- Examine temporal trends to understand how housing violations change over time.
 
 ### Measurable Outcomes
-[Explain how you will determine whether your project goals have been successfully achieved.  
-What metrics, predictions, features, or results will you evaluate?]
+
+- Frequency distributions of violation types.
+- Visualizations such as bar charts, geographic maps, and time-series plots.
+- Quantitative comparisons of violation density across neighborhoods.
 
 ---
 
 ## 3. Data Collection Plan
 
 ### Data Sources
-[List and briefly describe the datasets or data sources you plan to use.]
 
-Example:
-- [Dataset name or source] – [What data it contains]
-- [API / website / survey] – [What information it provides]
+- **Boston.gov（City of Boston Open Data Portal – Housing / Building Violations Dataset)** [https://data.boston.gov/](https://data.boston.gov/dataset/building-and-property-violations1) Provides detailed records of reported housing and building violations, including violation type, location, neighborhood, and date.
+
+- **Harvard Dataverse – Code, Building and Property Violations in Boston, MA** [Harvard](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TD9YOY) A published dataset hosted on the Harvard Dataverse repository containing building and property violations in Boston, available with a DOI. This dataset is based on official city records and may be used along with data from the City of Boston Open Data Portal for analysis.
+
+- **BU Library** 伟大无需多言
 
 ### Data Collection Method
-[Explain how the data will be collected. Specify whether you will use APIs, web scraping, polling, public datasets, or other methods.]
+
+- Download publicly available datasets from the provided sources.
+- Use provided APIs.
+- Clean and process data using Python libraries such as `pandas`, `NumPy`.
+
+**Technical Stack:**  
+Python, pandas, NumPy, matplotlib, seaborn, scikit-learn, Jupyter Notebook
 
 ---
 
-## Additional Notes (Optional)
-[Any assumptions, potential challenges, ethical considerations, or limitations of the project.]
+## Challenges
+
+- The project uses only publicly available, non-personal data.
+- Potential problems such as missing values, inconsistent address formats might appear.
+- Analysis will focus on systemic patterns rather than individual properties.
 
 ---
 
 ## Summary
-This proposal outlines the project topic, goals, timeline, and data collection strategy for the final project. The plan is designed to be realistic within the given two-month timeframe while allowing flexibility if adjustments are necessary.
+
+This proposal presents a structured and realistic plan to analyze housing and building violation data from the City of Boston using data science methods. The project clearly defines its topic and scope， with a focus on understanding violation patterns across neighborhoods and over time.
+
+The proposed goals are specific and measurable, emphasizing exploratory analysis and data visualization rather than complex modeling or causal claims. A feasible two-month timeline is outlined to ensure that each stage of the project, from data collection to final reporting, can be completed in a manageable and organized manner.
+
+Overall, the project is designed to use publicly available data and standard Python-based tools to produce a clear, data-driven overview of housing violation patterns in Boston, while remaining flexible enough to adjust scope if needed.
