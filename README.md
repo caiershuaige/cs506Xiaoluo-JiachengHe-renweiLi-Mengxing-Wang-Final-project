@@ -80,8 +80,8 @@ Python, pandas, NumPy, matplotlib, seaborn, scikit-learn, Jupyter Notebook
 
 ## Summary
 
-This proposal presents a structured and realistic plan to analyze housing and building violation data from the City of Boston using data science methods. The project clearly defines its topic and scope， with a focus on understanding violation patterns across neighborhoods and over time.
+This project plans to use housing and building violation data from the City of Boston to explore common housing issues in the city. The analysis mainly looks at how different types of violations appear across neighborhoods and how these patterns change over time.
 
-The proposed goals are specific and measurable, emphasizing exploratory analysis and data visualization rather than complex modeling or causal claims. A feasible two-month timeline is outlined to ensure that each stage of the project, from data collection to final reporting, can be completed in a manageable and organized manner.
+The project goals focus on exploratory analysis and visualization, with clear and measurable outcomes based on the data. A two-month timeline is planned so that each step of the project, including data collection, analysis, and reporting, can be completed in an organized way.
 
-Overall, the project is designed to use publicly available data and standard Python-based tools to produce a clear, data-driven overview of housing violation patterns in Boston, while remaining flexible enough to adjust scope if needed.
+Overall, the project uses publicly available data and standard Python tools to summarize housing violation patterns in Boston. The scope is kept flexible to allow adjustments during the project if needed.
