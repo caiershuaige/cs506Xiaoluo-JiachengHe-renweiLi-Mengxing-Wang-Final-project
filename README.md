@@ -18,18 +18,122 @@ The City of Boston is interested in housing violations, possible causes, and str
 ## 1. Project Description & Timeline
 
 ### Project Description
-This project works with available housing and building violation data from the City of Boston in public. These records are created when residential buildings do not meet required housing or safety standards, such as problems with heating, building conditions, sanitation, and fire safety, etc. The project aims to look at housing violations from a data perspective in order to understand what kinds of problems appear most often and how they vary across different neighborhoods through time. The analysis mainly focuses on describing violation types, where violations are more common, and how violation activity changes across different time periods. The goal of this project is to provide a organized summary of housing violation patterns based on data analysis and visualization.
+This project works with available housing and building violation data from the City of Boston in public. These records are created when residential buildings do not meet required housing or safety standards, such as problems with heating, building conditions, sanitation, and fire safety.
+
+The project aims to look at housing violations from a data perspective in order to understand what kinds of problems appear most often and how they vary across different neighborhoods over time. In addition to descriptive analysis, the project will also consider potential reporting and inspection bias in the data and aim to provide more meaningful comparisons across regions.
+
+The analysis mainly focuses on describing violation types, where violations are more common, and how violation activity changes across different time periods. To improve the robustness of the analysis, normalized measures (such as violation rates) will be used when possible to better reflect underlying patterns.
+
+The goal of this project is to provide an organized summary of housing violation patterns, supported by data analysis and visualization, while offering additional insights into spatial differences and potential systemic issues in housing conditions.
+
+---
 
 ### Project Timeline
 
-| Task / Milestone | Estimated Duration |
-|------------------|--------------------|
-| Background research and understanding housing codes | 1 week |
-| Data collection and initial exploration | 1 week |
-| Data cleaning and preprocessing | 2 weeks |
-| Exploratory analysis and modeling | 2 weeks |
-| Evaluation, visualization, and interpretation | 1 week |
-| Final report writing, presentation, and review | 1 week |
+### Background Research and Problem Definition (Week 1)
+- Review Boston housing codes and violation categories  
+- Study dataset documentation and metadata  
+- Identify key variables (e.g., violation type, date, location)  
+- Define refined research questions (spatial patterns, temporal trends, bias considerations)  
+- Identify additional datasets (e.g., population, neighborhood boundaries)  
+
+**Deliverables:**
+- Problem definition document  
+- Research questions list  
+- Data inventory summary  
+
+
+---
+
+### Data Collection and Initial Exploration (Week 2)
+- Download datasets from Boston Open Data Portal and Harvard Dataverse  
+- Inspect dataset structure (columns, data types, size)  
+- Perform initial data profiling (summary statistics, distributions)  
+- Generate quick visualizations (histograms, counts)  
+- Identify data quality issues (missing values, duplicates, inconsistencies)  
+
+**Deliverables:**
+- Organized raw datasets  
+- Initial EDA notebook  
+- Data quality report  
+
+
+---
+
+### Data Cleaning and Preprocessing (Week 3–4)
+- Handle missing values (removal or imputation)  
+- Remove duplicates and invalid records  
+- Standardize date/time formats  
+- Clean and normalize address/location fields  
+- Map addresses to neighborhoods or regions  
+- Merge datasets if needed  
+- Validate cleaned dataset consistency  
+
+**Deliverables:**
+- Cleaned dataset  
+- Data cleaning scripts (reproducible)  
+- Documentation of preprocessing steps  
+
+
+---
+
+### Exploratory Analysis and Visualization (Week 5–6)
+- Analyze frequency distribution of violation types  
+- Identify top violation categories  
+- Examine temporal trends (monthly/yearly patterns)  
+- Compare violations across neighborhoods  
+- Create visualizations (bar charts, time-series plots)  
+- Perform spatial analysis (maps, heatmaps, choropleth)  
+
+**Deliverables:**
+- EDA notebook with visualizations  
+- Core plots (types, trends, spatial distribution)  
+- Initial geographic maps  
+
+
+---
+
+### Normalization, Bias Analysis, and Modeling (Week 7)
+- Compute normalized metrics (violations per population / per area)  
+- Compare raw counts vs normalized results  
+- Analyze potential reporting or inspection bias  
+- Discuss assumptions and data limitations  
+- Perform basic modeling (regression or clustering)  
+- Interpret model outputs  
+
+**Deliverables:**
+- Normalized dataset  
+- Modeling notebook  
+- Bias analysis summary  
+
+
+---
+
+### Evaluation, Interpretation, and Insights (Week 8)
+- Synthesize results across all analyses  
+- Identify high-risk neighborhoods (based on normalized metrics)  
+- Compare spatial and temporal patterns  
+- Extract key insights  
+- Discuss limitations and implications  
+
+**Deliverables:**
+- Insight summary document  
+- Key findings list  
+- Draft report sections  
+
+
+---
+
+### Final Report and Presentation (Week 9)
+- Organize full report structure (introduction, methods, results, discussion)  
+- Refine visualizations for clarity and consistency  
+- Complete final report writing  
+- Prepare presentation slides  
+- Final review and revisions  
+
+**Deliverables:**
+- Final report  
+- Presentation slides
 
 ---
 
@@ -37,9 +141,11 @@ This project works with available housing and building violation data from the C
 
 ### Primary Goals
 
-- Identify the most frequent types of housing violations in Boston and how they vary by neighborhood.
+- Identify the most frequent types of housing violations in Boston and how they vary by neighborhood, using normalized measures when applicable.
+
 - Analyze spatial patterns of housing violations to determine whether certain areas experience disproportionately high violation rates.
-- Examine temporal trends to understand how housing violations change over time.
+
+- Examine temporal trends to understand how housing violations change over time, while considering potential reporting or inspection bias.
 
 ### Measurable Outcomes
 
