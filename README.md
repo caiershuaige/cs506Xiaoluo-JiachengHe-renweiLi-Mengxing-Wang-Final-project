@@ -42,7 +42,6 @@ The goal of this project is to provide an organized summary of housing violation
 - Research questions list  
 - Data inventory summary  
 
-
 ---
 
 ### Data Collection and Initial Exploration (Week 2)
@@ -56,7 +55,6 @@ The goal of this project is to provide an organized summary of housing violation
 - Organized raw datasets  
 - Initial EDA notebook  
 - Data quality report  
-
 
 ---
 
@@ -73,7 +71,6 @@ The goal of this project is to provide an organized summary of housing violation
 - Cleaned dataset  
 - Data cleaning scripts (reproducible)  
 - Documentation of preprocessing steps  
-
 
 ---
 
