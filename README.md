@@ -160,6 +160,8 @@ The goal of this project is to provide an organized summary of housing violation
 
 - **Harvard Dataverse – Code, Building and Property Violations in Boston, MA** [Harvard](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/TD9YOY) A published dataset hosted on the Harvard Dataverse repository containing building and property violations in Boston, available with a DOI. This dataset is based on official city records and may be used along with data from the City of Boston Open Data Portal for analysis.
 
+- **Boston Population Estimates** [https://data.boston.gov/dataset/2025-boston-population-estimates-neighborhood-level](https://data.boston.gov/dataset/2025-boston-population-estimates-neighborhood-level)
+
 - **BU Library**
 
 ### Data Collection Method
