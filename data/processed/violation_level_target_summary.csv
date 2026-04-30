@@ -1,0 +1,7 @@
+metric,value
+model_rows,16760
+unresolved_rows,794
+closed_rows,15966
+unresolved_rate_pct,4.74
+target_definition,"1 if status == Open, 0 if status == Closed; 2026 partial records excluded from training table"
+excluded_records,154

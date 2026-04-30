@@ -122,12 +122,14 @@ dmypy.json
 Thumbs.db
 
 # Data files (if sensitive or large)
-data/raw/
-data/processed/
-data/external/boston_property_assessment_data.csv
 outputs/
 reports/
 
 # Temporary files
 tmp/
 temp/
+.tmp/
+pytest-cache-files-*/
+
+# Large local source data
+data/external/boston_property_assessment_data.csv

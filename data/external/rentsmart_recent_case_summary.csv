@@ -1,0 +1,7 @@
+metric,value
+records,397592
+date_min,2021-05-25 10:25:56.210000+00:00
+date_max,2026-04-28 01:09:37.603000+00:00
+unique_violation_types,6
+unique_neighborhoods,15
+median_building_age_2026,116.0

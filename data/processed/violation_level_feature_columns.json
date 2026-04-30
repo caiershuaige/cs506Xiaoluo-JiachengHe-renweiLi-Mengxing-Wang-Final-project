@@ -1,0 +1,47 @@
+{
+  "target": "is_unresolved",
+  "target_definition": "1 if status == Open, 0 if status == Closed; 2026 partial records excluded",
+  "numeric_features": [
+    "latitude",
+    "longitude",
+    "population_2025",
+    "property_count",
+    "median_building_age",
+    "share_pre_1940",
+    "share_pre_1900",
+    "share_remodeled",
+    "median_total_value",
+    "median_living_area",
+    "median_land_sf",
+    "share_condo",
+    "share_multifamily",
+    "properties_per_1000_residents",
+    "rentsmart_case_count",
+    "rentsmart_median_building_age",
+    "rentsmart_share_pre_1940",
+    "rentsmart_share_pre_1900",
+    "rentsmart_share_remodeled",
+    "rentsmart_share_condo",
+    "rentsmart_share_multifamily"
+  ],
+  "categorical_features": [
+    "code_grouped",
+    "description_group",
+    "neighborhood",
+    "neighborhood_assignment_method",
+    "zip5",
+    "ward_clean",
+    "violation_suffix_clean",
+    "has_coords",
+    "has_neighborhood"
+  ],
+  "excluded_from_features": [
+    "status",
+    "status_clean",
+    "status_dttm",
+    "status_year",
+    "status_month",
+    "case_no"
+  ],
+  "target_strategy": "status_open_closed"
+}
