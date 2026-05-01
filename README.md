@@ -47,7 +47,7 @@ don't forget to check above before you run the following commands.
 On Windows PowerShell, run:
 
 ```powershell
-py -3.11 -m venv .venv
+python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
 pip install --upgrade pip
