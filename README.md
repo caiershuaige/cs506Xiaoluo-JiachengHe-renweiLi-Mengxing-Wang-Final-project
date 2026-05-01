@@ -38,7 +38,7 @@ make notebooks
 > ./data/external/boston_property_assessment_data.csv
 > ```
 > This file is not committed because of its size. The repository includes the processed tables needed to rerun the final model with `make model`.
-> PLEASE DOWNLOAD from here [Analyze Boston - Property Assessment](https://data.boston.gov/dataset/property-assessment) and make sure you download the correct version: Property Assessment FY2025 version csv file and change the file name to fit the purpose: `boston_property_assessment_data.csv`.
+> PLEASE DOWNLOAD from here [Boston Property - Placekey](https://www.placekey.io/datasets/boston-property-assessment-data) and make sure you download the correct version: Property Assessment FY2025 version csv file and change the file name to fit the purpose: `boston_property_assessment_data.csv`.
 
 ### If Makefile does not work
 
@@ -144,7 +144,7 @@ The project uses five main source files:
   Building and property violation records from [Analyze Boston](https://data.boston.gov/dataset/building-and-property-violations1). This file provides violation dates, codes, status, addresses, and coordinates.
 
 - `data/external/boston_property_assessment_data.csv`  
-  FY2025 Property Assessment data from [Analyze Boston](https://data.boston.gov/dataset/property-assessment). This file provides parcel-level property features, including building age, land use, assessed value, size, condition, and coordinates.
+  Property Assessment data from [Placekey Property Assessment](https://www.placekey.io/datasets/boston-property-assessment-data). This file provides parcel-level property features, including building age, land use, assessed value, size, condition, and coordinates.
 
 - `data/external/boston_neighborhood_boundaries.geojson`  
   Boston neighborhood boundary data from [Analyze Boston](https://data.boston.gov/dataset/bpda-neighborhood-boundaries). This file is used for spatial neighborhood assignment.
