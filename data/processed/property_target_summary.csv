@@ -1,0 +1,7 @@
+metric,value
+total_properties,169077.0
+properties_with_violation,9484.0
+positive_class_rate_pct,5.61
+properties_with_recent_violation,2348.0
+recent_positive_rate_pct,1.39
+mean_violations_per_positive_property,1.71
