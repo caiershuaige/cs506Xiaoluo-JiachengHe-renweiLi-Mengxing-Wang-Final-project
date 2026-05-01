@@ -133,3 +133,7 @@ pytest-cache-files-*/
 
 # Large local source data
 data/external/boston_property_assessment_data.csv
+
+presentation/
+
+scripts/
