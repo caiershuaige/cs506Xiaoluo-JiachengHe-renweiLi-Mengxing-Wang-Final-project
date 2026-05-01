@@ -38,7 +38,7 @@ make notebooks
 > ./data/external/boston_property_assessment_data.csv
 > ```
 > This file is not committed because of its size. The repository includes the processed tables needed to rerun the final model with `make model`.
-> PLEASE DOWNLOAD from here [Boston Property - Placekey](https://www.placekey.io/datasets/boston-property-assessment-data) and make sure you download the correct version: Property Assessment FY2025 version csv file and change the file name to fit the purpose: `boston_property_assessment_data.csv`.
+> PLEASE DOWNLOAD from here [Boston Property - Placekey](https://www.placekey.io/datasets/boston-property-assessment-data) and make sure you change the file name to fit the purpose: `boston_property_assessment_data.csv`.
 
 ### If Makefile does not work
 
