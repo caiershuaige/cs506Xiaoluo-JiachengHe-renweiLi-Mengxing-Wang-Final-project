@@ -50,8 +50,8 @@ On Windows PowerShell, run:
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 
-pip install --upgrade pip
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 
 python -m jupyter nbconvert --to notebook --execute --inplace notebooks/01_data_collection.ipynb
 python -m jupyter nbconvert --to notebook --execute --inplace notebooks/02_data_cleaning.ipynb
@@ -66,8 +66,8 @@ On macOS/Linux, run:
 python3 -m venv .venv
 source .venv/bin/activate
 
-pip install --upgrade pip
-pip install -r requirements.txt
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
 
 python -m jupyter nbconvert --to notebook --execute --inplace notebooks/01_data_collection.ipynb
 python -m jupyter nbconvert --to notebook --execute --inplace notebooks/02_data_cleaning.ipynb
