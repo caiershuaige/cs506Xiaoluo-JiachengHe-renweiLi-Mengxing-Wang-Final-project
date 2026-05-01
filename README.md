@@ -337,13 +337,15 @@ The cumulative gain curve shows what happens as the inspection group gets larger
 
 ## 8. Limitations
 
-This project has several limitations. First, the label is based on recorded historical violations, not all true housing problems. Some properties may have issues that were never reported or inspected. Because of this, `had_violation = 0` only means that no violation record was snapped to that parcel in our data.
+The violation data only covers cases formally filed with Boston ISD. A property may have real housing problems that were never reported, inspected, or recorded. Because of this, `had_violation = 0` does not always mean that the property had no problems. It only means that no violation record was matched to that parcel in our data.
 
-Second, the model should be used as a ranking tool, not as a perfect yes-or-no classifier. A high score means that a property looks similar to historically cited properties. It does not prove a current violation, and it does not guarantee a future one.
+Both main datasets were created for administrative purposes, not for prediction. The violation records are enforcement logs, and the Property Assessment file was designed for tax valuation. Some condition fields may reflect assessor judgment rather than a consistent housing-risk standard. As a result, the model learns which properties look similar to historically recorded cases, not all true housing risk.
 
-Third, the target depends on spatial matching. We snapped each violation to the nearest residential parcel within 50 meters. This creates a useful property-level label, but some matches may be wrong in dense areas or when coordinates are not precise.
+The target label also depends on spatial matching. Each violation was snapped to the nearest residential parcel within 50 meters. This threshold is reasonable for this project, but it has not been validated against an external ground truth. In dense areas, or when coordinates are imprecise, some violations may be assigned to a nearby parcel instead of the exact property.
 
-Finally, the evaluation uses a random stratified train/test split. This shows how well the model recognizes properties similar to historical violation properties, but it is not a strict future prediction test. A future version could use a time-based split. Also, location and feature importance should be interpreted carefully, since they show association rather than causation.
+The positive class is still small at the property level. Only 5.61% of residential properties have a snapped historical violation. Class balancing helps during training, but the model is still better suited for ranking than for making hard yes-or-no decisions.
+
+Finally, the evaluation uses a random stratified train/test split rather than a time-based split. This means the result shows how well the model recognizes properties similar to historical violation properties. It is not a strict future forecasting test. Feature importance and location signals should also be interpreted carefully, because they show association rather than causation.
 <br>
 <br>
 
