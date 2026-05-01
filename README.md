@@ -2,7 +2,7 @@
 
 **Course:** CS506 Final Project  
 **Group:** Mengxing Wang, Jiacheng He, Xiao Luo, Renwei Li  
-**Presentation video:** UNDER CONSTRUCTION RIGHT NOW !!!
+**Presentation video:** [https://youtu.be/oyae1mPDLSI?si=pQLfOaeTrLrzhNRC](https://youtu.be/oyae1mPDLSI?si=pQLfOaeTrLrzhNRC)
 <br>
 <br>
 
