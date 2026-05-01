@@ -1,0 +1,7 @@
+metric,value
+raw_property_rows,182241.0
+rows_after_residential_filter,169261.0
+rows_with_neighborhood_and_coords,169077.0
+neighborhoods_output,23.0
+missing_year_built_pct_residential,9.15
+missing_total_value_pct_residential,0.0

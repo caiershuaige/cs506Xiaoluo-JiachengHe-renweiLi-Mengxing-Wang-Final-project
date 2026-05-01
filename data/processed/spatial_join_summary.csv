@@ -1,0 +1,6 @@
+metric,value
+violations_with_coords,16700.0
+violations_snapped_within_50m,16201.0
+snap_rate_pct,97.01
+median_snap_distance_m,3.61
+mean_snap_distance_m,6.58

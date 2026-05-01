@@ -1,6 +1,6 @@
 metric,value
-top_10_pct_cases,419.0
-overall_unresolved_rate,0.04725536992840095
-top_10_pct_unresolved_rate,0.15274463007159905
-top_10_pct_lift,3.2323232323232327
-captured_unresolved_share,0.32323232323232326
+top_10_pct_cases,4227.0
+overall_violation_rate,0.056091790868228054
+top_10_pct_violation_rate,0.22805772415424652
+top_10_pct_lift,4.065795023196964
+captured_violation_share,0.4065795023196963
